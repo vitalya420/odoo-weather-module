@@ -37,7 +37,7 @@ class WeatherAPI:
 	@staticmethod
 	def formatted(payload: dict) -> str:
 		"""
-		Get string representation of get_weather
+		Get string representation of weather
 		"""
 
 		if payload['cod'] != 200:
