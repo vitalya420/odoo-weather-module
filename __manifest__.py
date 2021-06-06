@@ -1,20 +1,22 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Get weather",
+    'name': "OpenWeatherMap",
 
     'summary': """
-        Get your client's location weather""",
+        Get your client's location get_weather""",
 
     'description': """
-        View the weather in your clients' city
+        View the get_weather in your clients' city
     """,
 
-    'author': "Vitaly Corp.",
+    'author': "Vitaly",
     'website': "http://github.com/vitalya420",
 
-    
-    'category': 'Uncategorized',
-    'version': '0.1',
+
+    'category': 'Productivity',
+    'version': '0.2',
+    'application': True,
+
     'depends': ['crm'],
 
 
@@ -23,6 +25,7 @@
         'views/views.xml',
         'views/templates.xml',
     ],
+
     'demo': [
         'demo/demo.xml',
     ],
