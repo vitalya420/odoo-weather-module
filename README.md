@@ -1,7 +1,8 @@
 # Weather Module for Odoo
 
 
-![image](https://user-images.githubusercontent.com/67874485/120887482-d66f1780-c5fb-11eb-98a9-29dd2adfb775.png)
+![image](https://user-images.githubusercontent.com/67874485/120929883-82dff500-c6f3-11eb-9a9f-73281cafb54b.png)
+
 
 ## Installation
 ### Step 1.
@@ -13,9 +14,10 @@ git clone https://github.com/vitalya420/odoo-weather-module.git
 Move module to your addon folder 
 
 ### Step 3.
+Register at openweathermap.org and get an api key. Put it in the OPENWEATHERMAP_API_KEY environment variable
+
+### Step 4.
 Install
 
-![image](https://user-images.githubusercontent.com/67874485/120887572-56957d00-c5fc-11eb-9d69-172d129d5acc.png)
-
-
+![image](https://user-images.githubusercontent.com/67874485/120929945-cfc3cb80-c6f3-11eb-9da7-4eb173dd1396.png)
 
