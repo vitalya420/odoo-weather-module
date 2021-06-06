@@ -12,6 +12,6 @@ class ResPartner(models.Model):
     @api.depends('city')
     def _get_weather(self):
         if self.city:
-            wapi = WeatherAPI()
-            res = wapi.get_weather(self.city)
-            self.weather = "(" + wapi.formatted(res) + ")"
+            weather_api = WeatherAPI()
+            res = weather_api.get_weather(self.city)
+            self.weather = "(" + weather_api.formatted(res) + ")\n"
